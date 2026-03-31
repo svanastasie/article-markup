@@ -3,13 +3,40 @@ body {
 }
 
 img {
+    margin: 10px 0px 0px 38px;
+}
+
+img.code {
     margin: 43px 0px 37px 362px;
+}
+
+li, p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 p {
     margin: 0px 362px;
     width: 700px;
+    font-size: 21px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-color: #FAF9F8;
+    padding: 21px;
+}
+
+li {
+    font-size: 24px;
+    margin: 0px 30px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+li:hover {
+    text-decoration: underline;
 }
 
 code { 
@@ -21,6 +48,14 @@ h1, h2 {
     margin: 56px 364px 10px 360px;
     width: 700px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 34px;
 }
 
 @media (max-width: 800px) {
