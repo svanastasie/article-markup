@@ -1,5 +1,27 @@
-/* Тут пиши основные стили */
+body {
+    padding-bottom: 95px;
+}
 
+img {
+    margin: 43px 0px 37px 362px;
+}
+
+p {
+    margin: 0px 362px;
+    width: 700px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+code { 
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
+
+h1, h2 {
+    margin: 56px 364px 10px 360px;
+    width: 700px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
